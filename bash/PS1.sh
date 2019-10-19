@@ -1,2 +1,2 @@
 #!/bin/sh
-PS1="\n[\[[31m\]\t\[[37m\]][\[(B[m\]\[[36m\]\w\[(B[m\]]\n\[[33m\]\[[1m\]\u@\h \[(B[m\]\$ \[(B[m\]"
+PS1="\n[\[$(tput setaf 1)\]\t\[$(tput setaf 7)\]][\[$(tput sgr0)\]\[$(tput setaf 6)\]\w\[$(tput sgr0)\]]\n\[$(tput setaf 3)\]\[$(tput bold)\]\u@\h \[$(tput sgr0)\]\\$ \[$(tput sgr0)\]"
